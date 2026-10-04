@@ -1,69 +1,37 @@
-## 👋 Hi, I'm Oussema Bouchaala
+## Hi, I'm Oussema Bouchaala
 
-🎓 Computer Networks and Telecommunications Engineering Student at INSAT  
-🌐 Passionate about Cloud Computing, Cybersecurity, Machine Learning, and Software Development  
-💡 Strong interest in building innovative solutions using AI, web/mobile technologies, and secure systems  
-📍 Based in Tunis | 📫 oussema.bouchaala23@gmail.com
+Software & AI Engineer building **computer vision pipelines**, **LLM applications**, and the **APIs that serve them in production**.
+Final-year engineering student at INSAT (Tunis) · Software Engineer at Bit & Books (remote, Canada).
 
----
-
-## 🧠 About Me
-
-I’m a curious and driven engineering student with hands-on experience in full-stack development, machine learning, and algorithmic problem solving. I’ve developed academic and internship projects that showcase my ability to integrate software engineering with practical innovation.
-
-Recently, I completed a **Machine Learning project on ECG anomaly detection**, where I explored signal classification and model training using Python libraries like `scikit-learn`, `pandas`, and `numpy`. This deepened my understanding of AI, training pipelines, and algorithmic optimization within real-world contexts.
+**Currently:** building Arabic-first RAG and tool-calling systems, with real evaluation of accuracy, latency, and cost.
 
 ---
 
-## 🛠️ Technical Skills
+### What I've shipped
 
-**Languages:** Python, C, C++, Java, PHP, JavaScript, HTML/CSS, Matlab  
-**Frameworks & Tools:** Vue.js, Node.js, SpringBoot, Symfony, Scikit-learn, Numpy, Pandas  
-**Domains:** Machine Learning, Web & Mobile Development, Cybersecurity, Cloud Computing  
-**Soft Skills:** Leadership, Teamwork, Decision-making, Communication
+- **Tiny-object detection in production** (Octomiro, 2026). YOLOv8 + P2 head and SAHI tiling for sub-10px defects, ByteTrack tracking, zero-shot detection and false-positive filtering with Grounding DINO, SAM2, and quantized Qwen2.5-VL. Served on GPU behind FastAPI, Docker, and NGINX.
+- **FinTech web applications** (Bit & Books, 2025–present). Angular, React, Next.js, Node.js, and FastAPI; PostgreSQL + MongoDB data modeling, versioned migrations with rollback, CI/CD with GitHub Actions.
+- **Data & ML pipelines** (Yonnov'IA, 2025). Time-series feature engineering, supervised anomaly detection benchmarking, Odoo automation in Python.
 
----
+### Featured projects
 
-## 🚀 Highlight Projects
+| Project | What it does | Stack |
+| --- | --- | --- |
+| [Livestock visual tracking](https://github.com/OussemaBouchaala/mmcows-visual) | YOLO detection + BoT-SORT tracking for 3D localization, synced with wearable sensor data | YOLO, BoT-SORT, MLOps |
+| [Clinical trial harmonization](https://github.com/OussemaBouchaala/Clinical-Trial-Data) | Cleans ~5,000 ClinicalTrials.gov records; biomarker extraction with a LoRA fine-tuned small LLM | Python, ETL, LoRA |
+| [Fake review detection](https://github.com/OussemaBouchaala/Fake_Real_Reviews_Classifier) | TF-IDF + behavioral features with a Linear SVM, live web demo | NLP, scikit-learn |
+| [Tunisia real estate predictor](https://github.com/OussemaBouchaala/Appartments_Price_Prediction_Model) | Price prediction on Tunisian property data with an interactive app | scikit-learn, Python |
 
-### 🔬 Cardiac Signals Classification
-Machine Learning project to detect heart anomalies using supervised models on ECG data.  
-*Explored algorithms, data preprocessing, model tuning, and results visualization.*
+### Stack
 
-### 📱 DoctorME Android App
-Team-developed health assistant Android app integrating Java UI with embedded Python logic for extended functionality.
+**AI & CV:** PyTorch · YOLO · OpenCV · SAM2 · Hugging Face · scikit-learn · TensorFlow
+**Backend & Web:** FastAPI · Node.js · TypeScript · React · Next.js · Angular
+**Data & DevOps:** PostgreSQL · MongoDB · Docker · GitHub Actions · NGINX · DVC · Linux
 
-### 🌍 Energy Tracker App (Internship)
-Created a cross-platform mobile and web app for energy consumption tracking using a full-stack toolchain during my internship at APBS Groupe.
+### Languages
 
----
-
-## 📜 Certifications
-
-- **Cisco CCNA-1** *(2025)*
-- **NVIDIA** – Efficient Large Language Model Customization *(2024)*
-- **FreeCodeCamp** – JavaScript Algorithms and Data Structures *(In Progress)*
-- **AWS** – Introduction to Cloud *(In Progress)*
+Arabic (native) · English (fluent) · French (fluent)
 
 ---
 
-## 💬 Languages
-
-- 🇬🇧 English: Intermediate  
-- 🇫🇷 French: High Intermediate  
-- 🇪🇸 Spanish: Basics  
-- 🇹🇳 Arabic: Native
-
----
-
-## 🔗 Connect with Me
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-blue?style=flat-square&logo=linkedin)](https://www.linkedin.com/in/oussema-bouchaala)  
-[![GitHub](https://img.shields.io/badge/GitHub-black?style=flat-square&logo=github)](https://github.com/OussemaBouchaala)
-
----
-
-## 📈 GitHub Stats
-
-![Oussema's GitHub stats](https://github-readme-stats.vercel.app/api?username=OussemaBouchaala&show_icons=true&theme=default)
-
+[LinkedIn](https://www.linkedin.com/in/oussema-bouchaala) · [Portfolio](https://oussema-bouchaala-portfolio.vercel.app) · oussema.bouchaala@insat.ucar.tn
